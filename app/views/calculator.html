@@ -1,0 +1,10 @@
+<form class="form-inline">
+	<div class="form-group">
+		<input class="form-control" type="text" ng-model="a" placeholder="First number">
+	</div> + 
+	<div class="form-group">
+		<input class="form-control" type="text" ng-model="b" placeholder="Second number">
+	</div> = 
+
+	<span ng-show="a && b">{{Calculator.add(a, b)}}</span>
+</form>
