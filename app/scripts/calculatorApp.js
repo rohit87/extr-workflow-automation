@@ -10,7 +10,7 @@ var ngCalculatorApp = angular.module('calculator', [
 ngCalculatorApp.config(function($routeProvider){
 	$routeProvider
 		.when('/', {
-		  templateUrl: 'views/calculator.html',
+		  templateUrl: 'app/views/calculator.html',
 		  controller: 'CalculatorController'
 		})
 	;

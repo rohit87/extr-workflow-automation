@@ -3,8 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Extreme Workflow Automation</title>
-	<link rel="stylesheet" href="styles/lib/bootstrap.css">
-	<link rel="stylesheet" href="styles/app.css">
+	<link rel="stylesheet" href="dist/main.min.css">
 </head>
 <body ng-app="calculator">
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -24,13 +23,18 @@
 	<div ng-view=""></div>
 </body>
 
-<script src="scripts/lib/jQuery.js"></script>
-<script src="scripts/lib/angular.js"></script>
-<script src="scripts/lib/angular-route.js"></script>
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<!-- endbower -->
 
-<script src="scripts/calculatorApp.js"></script>
-<script src="scripts/controllers/calculatorController.js"></script>
-<script src="scripts/add.js"></script>
-<script src="scripts/subtract.js"></script>
-<!-- <script src="scripts/multiply.js"></script> -->
+<!-- injector:js -->
+<script src="app/scripts/add.js"></script>
+<script src="app/scripts/calculatorApp.js"></script>
+<script src="app/scripts/controllers/calculatorController.js"></script>
+<script src="app/scripts/subtract.js"></script>
+<!-- endinjector -->
+
 </html>
