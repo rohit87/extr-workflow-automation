@@ -15,7 +15,7 @@ or download and install from [here](http://nodejs.org/download/)
 ### Install Bower
 
 ```
-python -m SimpleHTTPServer 7000
+npm install bower -g
 ```
 
 ### Install Grunt and grunt-cli
@@ -31,7 +31,7 @@ npm install grunt-cli -g
 
 
 
-### Install SASS
+### Install SASS (may require su)
 
 ```
 gem install sass
