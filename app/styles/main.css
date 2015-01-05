@@ -1,7 +1,6 @@
-@import url(../../bower_components/bootstrap/dist/css/bootstrap.css);
+@import url(lib/bootstrap.css);
 body {
   padding: 20px;
-  padding-top: 70px;
-}
+  padding-top: 70px; }
 
 /*# sourceMappingURL=main.css.map */
