@@ -37,6 +37,17 @@ npm install grunt-cli -g
 gem install sass
 ```
 
+### Clone this repo
+
+```
+git clone https://github.com/rohit87/extr-workflow-automation.git
+```
+and
+
+```
+cd extr-workflow-automation
+```
+
 ###To start http server
 
 ```
